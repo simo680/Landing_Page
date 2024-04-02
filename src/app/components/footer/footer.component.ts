@@ -27,6 +27,6 @@ export class FooterComponent {
   {src:'assets/Twitter.svg', alt: 'Twitter', url: ''},
   {src:'assets/Instagram.svg', alt: 'Instagram', url: ''},
   {src:'assets/Linkedin.svg', alt: 'Facebook', url: ''},
-  {src:'assets/Facebook.svg', alt: 'Facebook', url: ''},
+  {src:'assets/Youtube.svg', alt: 'Youtube', url: ''},
  ]
 }

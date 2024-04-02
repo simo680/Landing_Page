@@ -2,7 +2,20 @@
   background-color: rgba(26, 36, 52, 1);
   color: white;
   display: flex;
+  gap: 27px;
   padding: 80px;
+}
+
+.footer__logo {
+  height: 170px;
+  margin-right: 27px;
+}
+
+.head {
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 27px;
+  line-height: 37.8px;
+  font-weight: 600;
 }
 
 .footer__icon {
@@ -30,14 +43,37 @@
 .footer__cards {
   display: flex;
   flex-direction: row;
+  height: 222px;
 }
 
-.footer__cards__quick-links {
-
-}
-
-.footer__cards__quick-links__links {
+.links {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
 
+.link {
+  opacity: 70%;
+  text-decoration: none;
+  list-style: none;
+}
+
+.links__item {
+  font-family: Inter, sans-serif;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 36px;
+  color: white;
+}
+
+.footer_heading {
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 37.8px;
+  margin-bottom: 16px;
+}
+
+.footer__cards__quick-links, .footer__cards__resources {
+  margin-right: 80px;
 }

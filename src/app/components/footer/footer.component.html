@@ -2,7 +2,7 @@
   <div class="footer__logo">
     <div class="footer__icon">
     <img class="footer__icon__img" src="assets/Logo.svg" alt="Logo" />
-    <h2>Diligrema</h2>
+    <h2 class="head">Digilearn</h2>
     </div>
     <p class="footer__logo__text">
       Unlock Digital Mastery Effortlessly! <br> Explore and enhance your skills <br> with
@@ -11,29 +11,29 @@
   </div>
   <div class="footer__cards">
     <div class="footer__cards__quick-links">
-      <p class="">Quick links</p>
+      <p class="footer_heading">Quick links</p>
       <ul class="">
-        <li class="footer__cards__quick-links__links">
+        <li class="links">
           @for (link of links; track $index) {
-          <a class="" [href]="link.url">{{ link.name }}</a>
+          <a class="link links__item" [href]="link.url">{{ link.name }}</a>
           }
         </li>
       </ul>
     </div>
     <div class="footer__cards__resources">
-      <p>Resources</p>
+      <p class="footer_heading">Resources</p>
       <ul>
-        <li class="">
+        <li class="links">
           @for (resource of resources; track $index) {
-          <a class="" [href]="resource.url">{{ resource.name }}</a>
+          <a class="link links__item" [href]="resource.url">{{ resource.name }}</a>
           }
         </li>
       </ul>
     </div>
     <div class="footer__cards__social-media">
-      <p>Social media</p>
+      <p class="footer_heading">Social media</p>
       <ul>
-        <li class="">
+        <li class="link">
           @for (icon of icons; track $index) {
           <a class="" [href]="icon.url">
             <img [src]="icon.src" [alt]="icon.alt" />
