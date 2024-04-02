@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 80px 0 80px;
+  height: 78px;
+}
+
+.nav__list {
+  display: flex
+}
+
+.nav__list_item {
+  list-style: none;
+}
+
+.nav__list_item:not(:last-child) {
+  padding-right: 48px;
+}

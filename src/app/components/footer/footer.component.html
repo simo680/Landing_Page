@@ -1,0 +1,46 @@
+<footer class="footer">
+  <div class="footer__logo">
+    <div class="footer__icon">
+    <img class="footer__icon__img" src="assets/Logo.svg" alt="Logo" />
+    <h2>Diligrema</h2>
+    </div>
+    <p class="footer__logo__text">
+      Unlock Digital Mastery Effortlessly! <br> Explore and enhance your skills <br> with
+      our user-friendly platform.
+    </p>
+  </div>
+  <div class="footer__cards">
+    <div class="footer__cards__quick-links">
+      <p class="">Quick links</p>
+      <ul class="">
+        <li class="footer__cards__quick-links__links">
+          @for (link of links; track $index) {
+          <a class="" [href]="link.url">{{ link.name }}</a>
+          }
+        </li>
+      </ul>
+    </div>
+    <div class="footer__cards__resources">
+      <p>Resources</p>
+      <ul>
+        <li class="">
+          @for (resource of resources; track $index) {
+          <a class="" [href]="resource.url">{{ resource.name }}</a>
+          }
+        </li>
+      </ul>
+    </div>
+    <div class="footer__cards__social-media">
+      <p>Social media</p>
+      <ul>
+        <li class="">
+          @for (icon of icons; track $index) {
+          <a class="" [href]="icon.url">
+            <img [src]="icon.src" [alt]="icon.alt" />
+          </a>
+          }
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>

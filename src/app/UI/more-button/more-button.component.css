@@ -1,0 +1,21 @@
+.button {
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.background {
+  background-color: rgba(164, 7, 77, 1);
+  padding: 24px 80px 24px 80px;
+  border-radius: 16px;
+  color: white;
+}
+
+.no_background {
+  background-color: transparent;
+  color: rgba(26, 36, 52, 1);
+  opacity: 70%;
+}
