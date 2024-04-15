@@ -10,4 +10,5 @@ import { Component, Input } from '@angular/core';
 export class MoreButtonComponent {
   @Input() title: string;
   @Input() background: string;
+  
 }

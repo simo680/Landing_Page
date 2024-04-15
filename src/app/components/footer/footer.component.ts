@@ -23,10 +23,10 @@ export class FooterComponent {
  ]
 
  public icons = [
-  {src:'assets/Facebook.svg', alt: 'Facebook', url: ''},
-  {src:'assets/Twitter.svg', alt: 'Twitter', url: ''},
-  {src:'assets/Instagram.svg', alt: 'Instagram', url: ''},
-  {src:'assets/Linkedin.svg', alt: 'Facebook', url: ''},
-  {src:'assets/Youtube.svg', alt: 'Youtube', url: ''},
+  {src:'assets/svg/Facebook.svg', alt: 'Facebook', url: ''},
+  {src:'assets/svg/Twitter.svg', alt: 'Twitter', url: ''},
+  {src:'assets/svg/Instagram.svg', alt: 'Instagram', url: ''},
+  {src:'assets/svg/Linkedin.svg', alt: 'Facebook', url: ''},
+  {src:'assets/svg/Youtube.svg', alt: 'Youtube', url: ''},
  ]
 }

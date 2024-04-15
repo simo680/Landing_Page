@@ -1,5 +1,35 @@
-<section>
-
-  <h2>Browse articles</h2>
-  <app-more-button title="View all" background="background"></app-more-button>
+<section class="Blog">
+  <app-line-text namePage="Blog"></app-line-text>
+  <h2 class="Blog__title">Browse articles</h2>
+  <ul class="Blog__list">
+    <li class="Blog__list__item">
+      @for (article of articles; track $index) {
+      <div class="list__group">
+        <div class="list__group__item">
+          <img [src]="article.src" [alt]="" />
+          <div class="list__name">
+            <div class="list__user">
+              <img class="user__img" src="assets/svg/User.svg" />
+              <h4 class="list__user__name">{{ article.name }}</h4>
+            </div>
+            <div class="list__date">
+              <img width="17" height="16 " src="assets/svg/CalendarBlank.svg" />
+              <time class="list__date_time">{{ article.date }}</time>
+            </div>
+          </div>
+          <p class="list__group__text">{{ article.text }}</p>
+          <app-more-button
+            title="Read more"
+            background="no_background"
+          ></app-more-button>
+        </div>
+      </div>
+      }
+    </li>
+  </ul>
+  <app-more-button
+    class="more-button"
+    title="View all"
+    background="background"
+  ></app-more-button>
 </section>

@@ -1,9 +1,17 @@
 <section class="testimonial">
-
+  <app-line-text namePage="Testimonial"></app-line-text>
   <h2>Student Testimonial</h2>
-  <div>
-    <div>
-    
-    </div>
-  </div>
+  <ul>
+    <li class="">
+      @for (testimonial of testimonials; track $index) {
+       <h3 class="">{{ testimonial.fullName }}</h3>
+       <h4 class="">{{ testimonial.specialization }}</h4>
+       <div class="">
+        <img src="" alt="">
+        <p>{{ testimonial.stars }}</p>
+       </div>
+       <p>{{ testimonial.description }}</p>
+      }
+    </li>
+  </ul>
 </section>

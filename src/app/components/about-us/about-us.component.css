@@ -1,0 +1,41 @@
+.about_us {
+  padding: 80px;
+}
+
+.girls {
+  width: 528px;
+  height: 439px;
+  border-radius: 16px;
+}
+
+.about_us__table {
+  margin-left: 80px;
+}
+
+.about_us_title {
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+}
+
+.about_us_text {
+  font-family: Inter, sans-serif;
+  width: 528px;
+  height: 180px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  opacity: 70%;
+}
+
+.about_us__table {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about_us__card {
+  display: flex;
+}

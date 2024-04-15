@@ -1,0 +1,89 @@
+.Blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Blog__title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  margin: 16px 0 80px 0;
+}
+
+.Blog__list {
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.Blog__list__item {
+  display: flex;
+ 
+}
+
+.list__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 362px;
+  margin: 24px;
+  
+}
+
+.list__group__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  border-radius: 32px;  
+  border: 1px solid #EBEFF6;
+  gap: 24px;
+}
+
+.list__name {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+
+.list__date {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.list__date_time {
+  margin-left: 8px;
+} 
+
+.list__group__text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.6px;
+}
+
+.list__user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.list__user__name {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 0.02em;
+  margin-left: 8px;
+}
+
+.more-button {
+  margin: 80px; 
+}

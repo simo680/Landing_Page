@@ -6,8 +6,7 @@ button {
   font-size: 20px;
   line-height: 24px;
   cursor: pointer;
-  display: flex;
-
+  display: flex
 }
 
 button > img {
@@ -19,10 +18,22 @@ button > img {
   padding: 24px 80px 24px 80px;
   border-radius: 16px;
   color: white;
+  
 }
 
 .no_background {
   background-color: transparent;
   color: rgba(26, 36, 52, 1);
   opacity: 70%;
+  
+}
+
+.line-background-black {
+  background-image: url('/assets/svg/ArrowRight.svg');
+  color: black;
+}
+
+.line-background-white {
+  background-image: url('/assets/svg/ArrowRight.svg');
+  color: aqua;
 }
