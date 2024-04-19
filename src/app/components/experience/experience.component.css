@@ -1,0 +1,31 @@
+.experience {
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.experience__numbers {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.experience__symbol {
+  color: #a4074d;
+}
+
+.experience__name {
+  opacity: 70%;
+  color: #1A2434;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+
+.f {
+  display: flex;
+}

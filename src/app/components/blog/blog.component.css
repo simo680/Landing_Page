@@ -5,23 +5,14 @@
   align-items: center;
 }
 
-.Blog__title {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 43.2px;
-  margin: 16px 0 80px 0;
-}
 
 .Blog__list {
   display: flex;
-  flex-direction: row;
- 
+  flex-direction: row; 
 }
 
 .Blog__list__item {
-  display: flex;
- 
+  display: flex
 }
 
 .list__group {
@@ -31,7 +22,6 @@
   align-items: center;
   width: 362px;
   margin: 24px;
-  
 }
 
 .list__group__item {
@@ -48,7 +38,6 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  
 }
 
 .list__date {

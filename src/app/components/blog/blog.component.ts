@@ -12,19 +12,19 @@ import { LineTextComponent } from '../line-text/line-text.component';
 export class BlogComponent {
   public articles = [
     {
-      src: 'assets/img/WatchMan.png',
+      src: './assets/img/WatchMan.png',
       name: 'Tom Kennedy',
       date: 'Feb 23, 2024',
       text: 'Lorem ipsum dolor sit amet consectetur.',
     },
     {
-      src: 'assets/img/LaptopMan.png',
+      src: './assets/img/LaptopMan.png',
       name: 'Tom Kennedy',
       date: 'Feb 23, 2024',
       text: 'Lorem ipsum dolor sit amet consectetur.',
     },
     {
-      src: 'assets/img/WomanMoment.png',
+      src: './assets/img/WomanMoment.png',
       name: 'Tom Kennedy',
       date: 'Feb 23, 2024',
       text: 'Lorem ipsum dolor sit amet consectetur.',

@@ -1,0 +1,61 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 5px;
+}
+
+.testimonial__item {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 32px;
+  gap: 16px;
+  margin: 32px;
+  opacity: 70%;
+  color: #1a2434;
+}
+
+.testimonial__stars {
+  display: flex;
+}
+
+.testimonial__stars-name {
+  margin-left: 4px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.testimonial__item-title {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.testimonial__item-spec {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+}
+
+.testimonial__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.02em;
+}

@@ -1,17 +1,17 @@
 <section class="testimonial">
   <app-line-text namePage="Testimonial"></app-line-text>
-  <h2>Student Testimonial</h2>
-  <ul>
-    <li class="">
-      @for (testimonial of testimonials; track $index) {
-       <h3 class="">{{ testimonial.fullName }}</h3>
-       <h4 class="">{{ testimonial.specialization }}</h4>
-       <div class="">
-        <img src="" alt="">
-        <p>{{ testimonial.stars }}</p>
-       </div>
-       <p>{{ testimonial.description }}</p>
-      }
+  <h2 class="title">Student Testimonial</h2>
+  <ul class="testimonial__list">
+    @for (testimonial of testimonials; track $index) {
+    <li class="testimonial__item">
+      <h3 class="testimonial__item-title">{{ testimonial.fullName }}</h3>
+      <h4 class="testimonial__item-spec">{{ testimonial.specialization }}</h4>
+      <div class="testimonial__stars">
+        <img src="./assets/svg/Star.svg" alt="" />
+        <p class="testimonial__stars-name">{{ testimonial.stars }}</p>
+      </div>
+      <p class="testimonial__text">{{ testimonial.description }}</p>
     </li>
+    }
   </ul>
 </section>

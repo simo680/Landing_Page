@@ -1,0 +1,11 @@
+<div class="experience">
+  @for (data of datas; track $index) {
+  <div class="experience__cards">
+    <div class="experience__numbers">
+      <h2 class="experience__number">{{ data.number }}</h2>
+      <h2 class="experience__symbol">{{ data.symbol }}</h2>
+    </div>
+    <p class="experience__name">{{ data.name }}</p>
+  </div>
+  }
+</div>

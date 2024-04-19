@@ -14,20 +14,20 @@
 
 .about_us_title {
   font-family: Plus Jakarta Sans, sans-serif;
-  font-size: 36px;
   font-weight: 600;
+  font-size: 36px;
   line-height: 43.2px;
 }
 
 .about_us_text {
-  font-family: Inter, sans-serif;
   width: 528px;
   height: 180px;
-  font-size: 20px;
+  opacity: 70%;
+  font-family: Inter, sans-serif;
   font-weight: 400;
+  font-size: 20px;
   line-height: 36px;
   letter-spacing: 0.02em;
-  opacity: 70%;
 }
 
 .about_us__table {
