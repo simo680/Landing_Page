@@ -74,6 +74,7 @@
   margin-bottom: 16px;
 }
 
-.footer__cards__quick-links, .footer__cards__resources {
+.footer__cards__quick-links,
+.footer__cards__resources {
   margin-right: 80px;
 }

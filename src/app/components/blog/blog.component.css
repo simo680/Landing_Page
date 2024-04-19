@@ -5,14 +5,13 @@
   align-items: center;
 }
 
-
 .Blog__list {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
 }
 
 .Blog__list__item {
-  display: flex
+  display: flex;
 }
 
 .list__group {
@@ -29,8 +28,8 @@
   flex-direction: column;
   justify-content: center;
   padding: 24px;
-  border-radius: 32px;  
-  border: 1px solid #EBEFF6;
+  border-radius: 32px;
+  border: 1px solid #ebeff6;
   gap: 24px;
 }
 
@@ -43,15 +42,15 @@
 .list__date {
   display: flex;
   flex-direction: row;
-  align-items: center; 
+  align-items: center;
 }
 
 .list__date_time {
   margin-left: 8px;
-} 
+}
 
 .list__group__text {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 33.6px;
@@ -74,5 +73,5 @@
 }
 
 .more-button {
-  margin: 80px; 
+  margin: 80px;
 }

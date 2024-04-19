@@ -8,8 +8,6 @@ import { ExperienceComponent } from '../experience/experience.component';
   standalone: true,
   imports: [MoreButtonComponent, LineTextComponent, ExperienceComponent],
   templateUrl: './about-us.component.html',
-  styleUrl: './about-us.component.css'
+  styleUrl: './about-us.component.css',
 })
-export class AboutUsComponent {
-
-}
+export class AboutUsComponent {}

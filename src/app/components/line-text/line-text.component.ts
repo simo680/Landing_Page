@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './line-text.component.html',
-  styleUrl: './line-text.component.css'
+  styleUrl: './line-text.component.css',
 })
 export class LineTextComponent {
   @Input() namePage: string;

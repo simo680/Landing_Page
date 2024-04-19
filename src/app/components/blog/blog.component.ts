@@ -7,7 +7,7 @@ import { LineTextComponent } from '../line-text/line-text.component';
   standalone: true,
   imports: [MoreButtonComponent, LineTextComponent],
   templateUrl: './blog.component.html',
-  styleUrl: './blog.component.css'
+  styleUrl: './blog.component.css',
 })
 export class BlogComponent {
   public articles = [

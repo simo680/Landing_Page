@@ -5,10 +5,9 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './more-button.component.html',
-  styleUrl: './more-button.component.css'
+  styleUrl: './more-button.component.css',
 })
 export class MoreButtonComponent {
   @Input() title: string;
   @Input() background: string;
-  
 }

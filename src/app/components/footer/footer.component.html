@@ -1,12 +1,13 @@
 <footer class="footer">
   <div class="footer__logo">
     <div class="footer__icon">
-    <img class="footer__icon__img" src="assets/svg/Logo.svg" alt="Logo" />
-    <h2 class="head">Digilearn</h2>
+      <img class="footer__icon__img" src="assets/svg/Logo.svg" alt="Logo" />
+      <h2 class="head">Digilearn</h2>
     </div>
     <p class="footer__logo__text">
-      Unlock Digital Mastery Effortlessly! <br> Explore and enhance your skills <br> with
-      our user-friendly platform.
+      Unlock Digital Mastery Effortlessly! <br />
+      Explore and enhance your skills <br />
+      with our user-friendly platform.
     </p>
   </div>
   <div class="footer__cards">
@@ -25,7 +26,9 @@
       <ul>
         <li class="links">
           @for (resource of resources; track $index) {
-          <a class="link links__item" [href]="resource.url">{{ resource.name }}</a>
+          <a class="link links__item" [href]="resource.url">{{
+            resource.name
+          }}</a>
           }
         </li>
       </ul>
